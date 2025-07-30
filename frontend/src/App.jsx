@@ -1,10 +1,15 @@
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
+
 function App() {
   return (
-    <>
-      <div>
-        <h1 className="text-3xl font-bold underline">SatinderBlog App</h1>
-      </div>
-    </>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </div>
   );
 }
 
