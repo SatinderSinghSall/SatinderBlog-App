@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Full-Stack blog platform using MongoDB, Express, React, and Node.js with an AI-powered blog content generator. Includes an admin dashboard to manage posts and comments | Backend Codebase.",
+  "license": "ISC",
+  "author": "Satinder Singh Sall",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  }
+}
